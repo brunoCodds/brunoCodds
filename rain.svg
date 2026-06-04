@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 120" width="800" height="120">
+  <defs>
+    <style>
+      .drop { animation: fall linear infinite; opacity: 0.55; }
+
+      @keyframes fall {
+        0%   { transform: translateY(-20px); opacity: 0; }
+        10%  { opacity: 0.6; }
+        90%  { opacity: 0.5; }
+        100% { transform: translateY(130px); opacity: 0; }
+      }
+    </style>
+  </defs>
+
+  <!-- Rain drops — varied x, delay, duration, length for natural feel -->
+  <g fill="#7ec8e3">
+    <rect class="drop" x="12"  y="0" width="1.5" height="10" style="animation-duration:0.9s; animation-delay:0.0s"/>
+    <rect class="drop" x="30"  y="0" width="1"   height="14" style="animation-duration:1.1s; animation-delay:0.3s"/>
+    <rect class="drop" x="55"  y="0" width="1.5" height="9"  style="animation-duration:0.8s; animation-delay:0.7s"/>
+    <rect class="drop" x="80"  y="0" width="1"   height="12" style="animation-duration:1.0s; animation-delay:0.1s"/>
+    <rect class="drop" x="100" y="0" width="1.5" height="11" style="animation-duration:0.95s; animation-delay:0.5s"/>
+    <rect class="drop" x="125" y="0" width="1"   height="8"  style="animation-duration:1.2s; animation-delay:0.2s"/>
+    <rect class="drop" x="148" y="0" width="1.5" height="13" style="animation-duration:0.85s; animation-delay:0.6s"/>
+    <rect class="drop" x="170" y="0" width="1"   height="10" style="animation-duration:1.05s; animation-delay:0.4s"/>
+    <rect class="drop" x="195" y="0" width="1.5" height="12" style="animation-duration:0.9s; animation-delay:0.8s"/>
+    <rect class="drop" x="218" y="0" width="1"   height="9"  style="animation-duration:1.1s; animation-delay:0.15s"/>
+    <rect class="drop" x="240" y="0" width="1.5" height="14" style="animation-duration:0.8s; animation-delay:0.55s"/>
+    <rect class="drop" x="265" y="0" width="1"   height="10" style="animation-duration:1.0s; animation-delay:0.35s"/>
+    <rect class="drop" x="288" y="0" width="1.5" height="11" style="animation-duration:0.95s; animation-delay:0.75s"/>
+    <rect class="drop" x="310" y="0" width="1"   height="13" style="animation-duration:1.15s; animation-delay:0.0s"/>
+    <rect class="drop" x="335" y="0" width="1.5" height="9"  style="animation-duration:0.88s; animation-delay:0.45s"/>
+    <rect class="drop" x="358" y="0" width="1"   height="12" style="animation-duration:1.0s; animation-delay:0.25s"/>
+    <rect class="drop" x="380" y="0" width="1.5" height="10" style="animation-duration:0.92s; animation-delay:0.65s"/>
+    <rect class="drop" x="405" y="0" width="1"   height="14" style="animation-duration:1.1s; animation-delay:0.1s"/>
+    <rect class="drop" x="428" y="0" width="1.5" height="11" style="animation-duration:0.82s; animation-delay:0.5s"/>
+    <rect class="drop" x="450" y="0" width="1"   height="9"  style="animation-duration:1.05s; animation-delay:0.7s"/>
+    <rect class="drop" x="475" y="0" width="1.5" height="13" style="animation-duration:0.9s; animation-delay:0.3s"/>
+    <rect class="drop" x="498" y="0" width="1"   height="10" style="animation-duration:1.0s; animation-delay:0.0s"/>
+    <rect class="drop" x="520" y="0" width="1.5" height="12" style="animation-duration:0.87s; animation-delay:0.4s"/>
+    <rect class="drop" x="545" y="0" width="1"   height="8"  style="animation-duration:1.2s; animation-delay:0.6s"/>
+    <rect class="drop" x="568" y="0" width="1.5" height="14" style="animation-duration:0.93s; animation-delay:0.2s"/>
+    <rect class="drop" x="590" y="0" width="1"   height="11" style="animation-duration:1.08s; animation-delay:0.55s"/>
+    <rect class="drop" x="615" y="0" width="1.5" height="10" style="animation-duration:0.85s; animation-delay:0.75s"/>
+    <rect class="drop" x="638" y="0" width="1"   height="13" style="animation-duration:1.0s; animation-delay:0.15s"/>
+    <rect class="drop" x="660" y="0" width="1.5" height="9"  style="animation-duration:0.9s; animation-delay:0.35s"/>
+    <rect class="drop" x="685" y="0" width="1"   height="12" style="animation-duration:1.1s; animation-delay:0.5s"/>
+    <rect class="drop" x="708" y="0" width="1.5" height="10" style="animation-duration:0.95s; animation-delay:0.0s"/>
+    <rect class="drop" x="730" y="0" width="1"   height="14" style="animation-duration:1.15s; animation-delay:0.8s"/>
+    <rect class="drop" x="755" y="0" width="1.5" height="11" style="animation-duration:0.83s; animation-delay:0.25s"/>
+    <rect class="drop" x="778" y="0" width="1"   height="9"  style="animation-duration:1.0s; animation-delay:0.45s"/>
+    <rect class="drop" x="795" y="0" width="1.5" height="13" style="animation-duration:0.88s; animation-delay:0.6s"/>
+
+    <!-- Extra drops for density -->
+    <rect class="drop" x="22"  y="0" width="1" height="8"  style="animation-duration:1.3s; animation-delay:0.9s"/>
+    <rect class="drop" x="68"  y="0" width="1" height="11" style="animation-duration:0.75s; animation-delay:0.4s"/>
+    <rect class="drop" x="112" y="0" width="1" height="9"  style="animation-duration:1.1s; animation-delay:0.85s"/>
+    <rect class="drop" x="158" y="0" width="1" height="13" style="animation-duration:0.9s; animation-delay:0.3s"/>
+    <rect class="drop" x="202" y="0" width="1" height="10" style="animation-duration:1.0s; animation-delay:0.7s"/>
+    <rect class="drop" x="252" y="0" width="1" height="8"  style="animation-duration:0.85s; animation-delay:0.1s"/>
+    <rect class="drop" x="298" y="0" width="1" height="12" style="animation-duration:1.2s; animation-delay:0.55s"/>
+    <rect class="drop" x="345" y="0" width="1" height="10" style="animation-duration:0.92s; animation-delay:0.9s"/>
+    <rect class="drop" x="392" y="0" width="1" height="14" style="animation-duration:1.05s; animation-delay:0.2s"/>
+    <rect class="drop" x="438" y="0" width="1" height="9"  style="animation-duration:0.8s; animation-delay:0.65s"/>
+    <rect class="drop" x="485" y="0" width="1" height="11" style="animation-duration:1.1s; animation-delay:0.45s"/>
+    <rect class="drop" x="532" y="0" width="1" height="10" style="animation-duration:0.95s; animation-delay:0.15s"/>
+    <rect class="drop" x="578" y="0" width="1" height="13" style="animation-duration:1.0s; animation-delay:0.75s"/>
+    <rect class="drop" x="625" y="0" width="1" height="8"  style="animation-duration:0.88s; animation-delay:0.35s"/>
+    <rect class="drop" x="672" y="0" width="1" height="12" style="animation-duration:1.15s; animation-delay:0.05s"/>
+    <rect class="drop" x="718" y="0" width="1" height="10" style="animation-duration:0.9s; animation-delay:0.6s"/>
+    <rect class="drop" x="765" y="0" width="1" height="11" style="animation-duration:1.0s; animation-delay:0.8s"/>
+  </g>
+</svg>
