@@ -1,0 +1,109 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 800 520" width="800" height="520">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;600&amp;display=swap');
+
+      @keyframes fall {
+        0%   { transform: translateY(-30px); opacity: 0; }
+        10%  { opacity: 0.9; }
+        90%  { opacity: 0.7; }
+        100% { transform: translateY(560px); opacity: 0; }
+      }
+      .r { animation: fall linear infinite; }
+    </style>
+
+    <!-- Badge Gmail -->
+    <filter id="shadow" x="-5%" y="-5%" width="110%" height="130%">
+      <feDropShadow dx="0" dy="1" stdDeviation="1" flood-color="#000" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="520" fill="#0d1117" rx="12"/>
+
+  <!-- ── TITLE ── -->
+  <text x="40" y="60" font-family="'Fira Code', monospace" font-size="32" font-weight="600" fill="#e6edf3">BrunoCodds</text>
+
+  <!-- Badge: Desenvolvedor fullStack -->
+  <rect x="40" y="76" width="210" height="26" rx="5" fill="#21262d"/>
+  <text x="145" y="94" font-family="'Fira Code', monospace" font-size="12" fill="#8b949e" text-anchor="middle">Desenvolvedor fullStack</text>
+
+  <!-- ── INTRO ── -->
+  <text x="40" y="138" font-family="'Fira Code', monospace" font-size="15" fill="#c9d1d9">Beleza, me chamo Bruno Otavio</text>
+
+  <!-- ── BADGES GMAIL / LINKEDIN ── -->
+  <!-- Gmail badge -->
+  <a href="mailto:bruno.otavio.silva.1@gmail.com">
+    <rect x="40" y="155" width="120" height="32" rx="5" fill="#333"/>
+    <text x="64" y="176" font-family="sans-serif" font-size="11" font-weight="bold" fill="white">✉ GMAIL</text>
+  </a>
+  <!-- LinkedIn badge -->
+  <a href="https://www.linkedin.com/in/bruno-ot%C3%A1vio-silva-de-oliveira-865930332">
+    <rect x="170" y="155" width="130" height="32" rx="5" fill="#0077B5"/>
+    <text x="200" y="176" font-family="sans-serif" font-size="11" font-weight="bold" fill="white">in LINKEDIN</text>
+  </a>
+
+  <!-- ── SECTION: Linguagens e Tecnologias ── -->
+  <text x="40" y="230" font-family="'Fira Code', monospace" font-size="17" font-weight="600" fill="#e6edf3">Linguagens e Tecnologias</text>
+
+  <!-- Tech icons via image embeds (devicons CDN) -->
+  <image href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg"       x="40"  y="248" width="36" height="36"/>
+  <image href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg"         x="86"  y="248" width="36" height="36"/>
+  <image href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" x="132" y="248" width="36" height="36"/>
+  <image href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg" x="178" y="248" width="36" height="36"/>
+  <image href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg"       x="224" y="248" width="36" height="36"/>
+  <image href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/php/php-original.svg"           x="270" y="248" width="36" height="36"/>
+  <image href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg"           x="316" y="248" width="36" height="36"/>
+  <image href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg"     x="362" y="248" width="36" height="36"/>
+  <image href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg"         x="408" y="248" width="36" height="36"/>
+  <image href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/azuresqldatabase/azuresqldatabase-original.svg" x="454" y="248" width="36" height="36"/>
+
+  <!-- ── GIF (eyes) ── -->
+  <image href="https://i.pinimg.com/originals/65/1a/9e/651a9e66e399299e7961b703df9158ce.gif" x="40" y="305" width="450" height="195"/>
+
+  <!-- ══════════════════════════════════════
+       RAIN DROPS — cobrindo TODO o SVG
+       ══════════════════════════════════════ -->
+  <g opacity="0.75">
+    <line class="r" x1="25"  y1="0" x2="22"  y2="25" stroke="#4FC3F7" stroke-width="2.5" style="animation-duration:1.4s;animation-delay:0.00s"/>
+    <line class="r" x1="55"  y1="0" x2="52"  y2="25" stroke="#29B6F6" stroke-width="2"   style="animation-duration:1.1s;animation-delay:0.18s"/>
+    <line class="r" x1="85"  y1="0" x2="82"  y2="25" stroke="#81D4FA" stroke-width="3"   style="animation-duration:1.6s;animation-delay:0.36s"/>
+    <line class="r" x1="115" y1="0" x2="112" y2="25" stroke="#4FC3F7" stroke-width="2"   style="animation-duration:1.2s;animation-delay:0.54s"/>
+    <line class="r" x1="145" y1="0" x2="142" y2="25" stroke="#29B6F6" stroke-width="2.5" style="animation-duration:1.5s;animation-delay:0.72s"/>
+    <line class="r" x1="175" y1="0" x2="172" y2="25" stroke="#4FC3F7" stroke-width="2"   style="animation-duration:1.0s;animation-delay:0.10s"/>
+    <line class="r" x1="205" y1="0" x2="202" y2="25" stroke="#81D4FA" stroke-width="3"   style="animation-duration:1.3s;animation-delay:0.28s"/>
+    <line class="r" x1="235" y1="0" x2="232" y2="25" stroke="#29B6F6" stroke-width="2"   style="animation-duration:1.1s;animation-delay:0.46s"/>
+    <line class="r" x1="265" y1="0" x2="262" y2="25" stroke="#4FC3F7" stroke-width="2.5" style="animation-duration:1.7s;animation-delay:0.64s"/>
+    <line class="r" x1="295" y1="0" x2="292" y2="25" stroke="#29B6F6" stroke-width="2"   style="animation-duration:1.2s;animation-delay:0.82s"/>
+    <line class="r" x1="325" y1="0" x2="322" y2="25" stroke="#81D4FA" stroke-width="3"   style="animation-duration:1.4s;animation-delay:0.05s"/>
+    <line class="r" x1="355" y1="0" x2="352" y2="25" stroke="#4FC3F7" stroke-width="2"   style="animation-duration:0.95s;animation-delay:0.23s"/>
+    <line class="r" x1="385" y1="0" x2="382" y2="25" stroke="#29B6F6" stroke-width="2.5" style="animation-duration:1.55s;animation-delay:0.41s"/>
+    <line class="r" x1="415" y1="0" x2="412" y2="25" stroke="#4FC3F7" stroke-width="2"   style="animation-duration:1.15s;animation-delay:0.59s"/>
+    <line class="r" x1="445" y1="0" x2="442" y2="25" stroke="#81D4FA" stroke-width="3"   style="animation-duration:1.35s;animation-delay:0.77s"/>
+    <line class="r" x1="475" y1="0" x2="472" y2="25" stroke="#29B6F6" stroke-width="2"   style="animation-duration:1.05s;animation-delay:0.13s"/>
+    <line class="r" x1="505" y1="0" x2="502" y2="25" stroke="#4FC3F7" stroke-width="2.5" style="animation-duration:1.45s;animation-delay:0.31s"/>
+    <line class="r" x1="535" y1="0" x2="532" y2="25" stroke="#29B6F6" stroke-width="2"   style="animation-duration:1.25s;animation-delay:0.49s"/>
+    <line class="r" x1="565" y1="0" x2="562" y2="25" stroke="#81D4FA" stroke-width="3"   style="animation-duration:1.65s;animation-delay:0.67s"/>
+    <line class="r" x1="595" y1="0" x2="592" y2="25" stroke="#4FC3F7" stroke-width="2"   style="animation-duration:1.0s;animation-delay:0.85s"/>
+    <line class="r" x1="625" y1="0" x2="622" y2="25" stroke="#29B6F6" stroke-width="2.5" style="animation-duration:1.4s;animation-delay:0.07s"/>
+    <line class="r" x1="655" y1="0" x2="652" y2="25" stroke="#4FC3F7" stroke-width="2"   style="animation-duration:1.1s;animation-delay:0.25s"/>
+    <line class="r" x1="685" y1="0" x2="682" y2="25" stroke="#81D4FA" stroke-width="3"   style="animation-duration:1.5s;animation-delay:0.43s"/>
+    <line class="r" x1="715" y1="0" x2="712" y2="25" stroke="#29B6F6" stroke-width="2"   style="animation-duration:1.2s;animation-delay:0.61s"/>
+    <line class="r" x1="745" y1="0" x2="742" y2="25" stroke="#4FC3F7" stroke-width="2.5" style="animation-duration:1.3s;animation-delay:0.79s"/>
+    <line class="r" x1="775" y1="0" x2="772" y2="25" stroke="#29B6F6" stroke-width="2"   style="animation-duration:0.9s;animation-delay:0.15s"/>
+    <!-- offset col -->
+    <line class="r" x1="40"  y1="0" x2="37"  y2="25" stroke="#4FC3F7" stroke-width="2"   style="animation-duration:1.25s;animation-delay:0.88s"/>
+    <line class="r" x1="100" y1="0" x2="97"  y2="25" stroke="#29B6F6" stroke-width="2.5" style="animation-duration:1.55s;animation-delay:0.33s"/>
+    <line class="r" x1="160" y1="0" x2="157" y2="25" stroke="#81D4FA" stroke-width="2"   style="animation-duration:1.05s;animation-delay:0.51s"/>
+    <line class="r" x1="220" y1="0" x2="217" y2="25" stroke="#4FC3F7" stroke-width="3"   style="animation-duration:1.75s;animation-delay:0.69s"/>
+    <line class="r" x1="280" y1="0" x2="277" y2="25" stroke="#29B6F6" stroke-width="2"   style="animation-duration:1.15s;animation-delay:0.87s"/>
+    <line class="r" x1="340" y1="0" x2="337" y2="25" stroke="#4FC3F7" stroke-width="2.5" style="animation-duration:1.35s;animation-delay:0.20s"/>
+    <line class="r" x1="400" y1="0" x2="397" y2="25" stroke="#81D4FA" stroke-width="2"   style="animation-duration:0.85s;animation-delay:0.38s"/>
+    <line class="r" x1="460" y1="0" x2="457" y2="25" stroke="#29B6F6" stroke-width="3"   style="animation-duration:1.45s;animation-delay:0.56s"/>
+    <line class="r" x1="520" y1="0" x2="517" y2="25" stroke="#4FC3F7" stroke-width="2"   style="animation-duration:1.05s;animation-delay:0.74s"/>
+    <line class="r" x1="580" y1="0" x2="577" y2="25" stroke="#29B6F6" stroke-width="2.5" style="animation-duration:1.65s;animation-delay:0.02s"/>
+    <line class="r" x1="640" y1="0" x2="637" y2="25" stroke="#81D4FA" stroke-width="2"   style="animation-duration:1.15s;animation-delay:0.44s"/>
+    <line class="r" x1="700" y1="0" x2="697" y2="25" stroke="#4FC3F7" stroke-width="3"   style="animation-duration:1.3s;animation-delay:0.62s"/>
+    <line class="r" x1="760" y1="0" x2="757" y2="25" stroke="#29B6F6" stroke-width="2"   style="animation-duration:0.95s;animation-delay:0.80s"/>
+  </g>
+</svg>
